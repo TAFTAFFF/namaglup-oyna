@@ -1,6 +1,6 @@
 // Namağlup service worker: the whole game is ONE html file, so offline play = cache it.
-// 202610171726 is stamped by scripts/build-html.mjs so every release gets a fresh cache.
-const CACHE = 'namaglup-202610171726';
+// 202610171823 is stamped by scripts/build-html.mjs so every release gets a fresh cache.
+const CACHE = 'namaglup-202610171823';
 const SHELL = ['./', 'manifest.webmanifest', 'icons/icon-192.png', 'icons/icon-512.png', 'icons/apple-touch-icon.png'];
 
 self.addEventListener('install', (e) => {
